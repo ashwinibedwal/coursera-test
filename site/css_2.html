@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Child selector</title>
+	<style>
+		section>article{
+			color:green;
+			font-size: 20px
+		}
+		section>h2{
+			color:red;
+			font-family: italic;
+
+		}
+		p.red{
+			color:red;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>Child Selector</h1>
+	<section>
+		<h2>Subheading 1</h2>
+		<div>
+			<article>
+				Article one is inside article tag which is inside div
+			</article>
+			<p class="red">There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The HTML remains the same, the only thing that has changed is the external CSS file. Yes, really</p>
+		</div>
+	</section>
+	<section>
+		<article>This is article which do not contain div tag</article>
+	</section>
+	<p>There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The HTML remains the same, the only thing that has changed is the external CSS file. Yes, really</p>
+<h2>Subheading 2</h2>
+
+</body>
+</html>
